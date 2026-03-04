@@ -1,5 +1,5 @@
 [build]
 builder = "NIXPACKS"
 
-[build.nixpacks]
-pythonVersion = "3.10"
+[deploy]
+startCommand = "python bot.py"
